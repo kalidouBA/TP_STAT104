@@ -1,0 +1,269 @@
+UTILISATION_TRAVAIL	DISPOSITIF_OPTHALMOLOGIQUE	MIGRAINE	CSP	AGE	IMC	HEURE_UTILISATION	ID
+Non	Oui	Oui	employé	34	16.95	7.6	ID_1
+Oui	Oui	Non	cadre	81	24.38	3.8	ID_2
+Non	Non	Non	non actif	64	17.8	0.6	ID_3
+Oui	Oui	Non	non actif	71	25.54	3.5	ID_4
+Oui	Oui	Oui	non actif	74	19.83	2.4	ID_5
+Oui	Oui	Non	cadre	68	28.39	8.7	ID_6
+Non	Non	Oui	non actif	64	27.76	8.6	ID_7
+Non	Oui	Non	non actif	65	31.63	6	ID_8
+Oui	Oui	Non	non actif	75	23.05	3.1	ID_9
+Non	Oui	Non	non actif	28	19.95	6.7	ID_10
+Oui	Oui	Non	non actif	61	34.3	5	ID_11
+Non	Oui	Non	non actif	66	18.45	0.9	ID_12
+Non	Non	Non	non actif	81	21.92	1.1	ID_13
+Oui	Non	Oui	employé	34	19.42	6.3	ID_14
+Oui	Non	Non	non actif	65	24.41	1.8	ID_15
+Non	Non	Non	non actif	74	22.61	0.4	ID_16
+Oui	Oui	Non	non actif	73	30.9	8.3	ID_17
+Oui	Oui	Oui	non actif	28	33.15	4.4	ID_18
+Oui	Oui	Non	non actif	73	33.82	8.1	ID_19
+Non	Non	Non	non actif	89	22.7	7.7	ID_20
+Non	Oui	Oui	non actif	83	20.51	7	ID_21
+Oui	Oui	Oui	non actif	89	24.89	6.4	ID_22
+Non	Oui	Non	non actif	63	30.55	5.5	ID_23
+Oui	Oui	Oui	non actif	63	23.91	2.6	ID_24
+Oui	Non	Oui	non actif	19	21.67	10.3	ID_25
+Oui	Non	Oui	non actif	67	21.51	3.2	ID_26
+Non	Oui	Oui	non actif	79	25.34	1.2	ID_27
+Oui	Oui	Oui	non actif	22	27.55	7.9	ID_28
+Non	Oui	Non	non actif	62	22.98	3.7	ID_29
+Oui	Non	Oui	étudiant	18	24.97	12.5	ID_30
+Oui	Non	Oui	non actif	24	24.63	5.6	ID_31
+Non	Oui	Oui	étudiant	19	22.75	14.4	ID_32
+Oui	Non	Non	non actif	61	22.12	2.9	ID_33
+Oui	Non	Non	employé	22	18.22	3.7	ID_34
+Non	Non	Non	cadre	18	21.45	8.2	ID_35
+Oui	Oui	Non	non actif	75	21.16	2.6	ID_36
+Non	Non	Non	non actif	71	16.45	2.5	ID_37
+Oui	Oui	Non	étudiant	17	19.35	13.4	ID_38
+Oui	Non	Non	non actif	51	24.04	2.6	ID_39
+Non	Non	Non	cadre	53	19.52	2.5	ID_40
+Non	Oui	Non	cadre	47	20.65	2.9	ID_41
+Non	Non	Oui	cadre	50	17.58	2.1	ID_42
+Oui	Non	Non	employé	48	17.73	2.4	ID_43
+Oui	Oui	Non	cadre	52	20.91	2.2	ID_44
+Oui	Non	Oui	étudiant	54	28.93	4.3	ID_45
+Oui	Oui	Non	non actif	55	21.62	2.8	ID_46
+Oui	Oui	Oui	cadre	46	21.14	3.9	ID_47
+Oui	Non	Non	employé	49	17.26	3.8	ID_48
+Non	Non	Non	employé	59	18.6	3.5	ID_49
+Oui	Oui	Oui	cadre	50	16.01	3	ID_50
+Oui	Non	Non	cadre	45	24.59	5.8	ID_51
+Oui	Oui	Non	cadre	50	19.59	4.8	ID_52
+Non	Non	Oui	employé	52	24.78	4.9	ID_53
+Non	Oui	Non	cadre	47	20.6	6.4	ID_54
+Non	Oui	Non	cadre	50	20.2	5	ID_55
+Non	Non	Non	employé	25	17.28	6.2	ID_56
+Non	Non	Oui	employé	33	30.24	4.4	ID_57
+Non	Non	Non	cadre	52	21.04	4.6	ID_58
+Oui	Non	Non	cadre	54	21.94	4.6	ID_59
+Oui	Non	Oui	non actif	59	17.22	4.1	ID_60
+Oui	Non	Oui	cadre	52	22.85	4.4	ID_61
+Oui	Non	Non	cadre	59	22.87	4.7	ID_62
+Oui	Non	Non	employé	50	17.41	6	ID_63
+Non	Oui	Non	non actif	47	21.39	5.5	ID_64
+Oui	Oui	Non	cadre	53	22.86	6.4	ID_65
+Oui	Non	Non	employé	47	24.2	7.7	ID_66
+Oui	Non	Non	cadre	50	28.08	6.3	ID_67
+Oui	Non	Non	non actif	53	21.91	7.3	ID_68
+Oui	Oui	Oui	employé	21	21.43	12.3	ID_69
+Non	Non	Non	cadre	50	25.84	6.1	ID_70
+Oui	Non	Non	employé	52	21.44	5.1	ID_71
+Oui	Non	Non	employé	57	21.36	4.5	ID_72
+Non	Non	Non	cadre	53	22.01	5.9	ID_73
+Oui	Oui	Oui	non actif	47	23.2	5.5	ID_74
+Oui	Non	Non	cadre	47	23.69	3.3	ID_75
+Oui	Non	Non	cadre	46	16.45	1.8	ID_76
+Non	Non	Oui	cadre	49	22.06	5.2	ID_77
+Oui	Oui	Oui	cadre	52	23.6	7.3	ID_78
+Oui	Non	Non	cadre	54	22.71	3.6	ID_79
+Oui	Oui	Non	cadre	51	23.46	4.2	ID_80
+Non	Non	Non	étudiant	20	17.15	14	ID_81
+Non	Oui	Non	étudiant	18	23.14	11.3	ID_82
+Oui	Non	Non	étudiant	23	19.2	8.9	ID_83
+Oui	Non	Oui	employé	21	24.52	12.6	ID_84
+Oui	Non	Oui	étudiant	17	24.36	9.6	ID_85
+Oui	Oui	Non	étudiant	20	21.33	11.2	ID_86
+Oui	Non	Oui	étudiant	19	16.99	14.2	ID_87
+Oui	Oui	Non	employé	22	32.84	7.2	ID_88
+Oui	Non	Oui	étudiant	15	21.41	8.3	ID_89
+Oui	Non	Oui	étudiant	18	16.79	8.5	ID_90
+Oui	Non	Oui	étudiant	21	21.91	6.7	ID_91
+Oui	Non	Non	étudiant	17	18.99	4.9	ID_92
+Oui	Non	Oui	non actif	18	18.23	5.3	ID_93
+Oui	Non	Non	cadre	35	19.27	3.9	ID_94
+Non	Oui	Non	cadre	40	24.31	3.3	ID_95
+Oui	Oui	Oui	cadre	40	21.06	2	ID_96
+Non	Oui	Oui	non actif	44	23.25	3.5	ID_97
+Oui	Oui	Oui	non actif	40	16.35	2.4	ID_98
+Oui	Non	Non	cadre	39	16.36	3.3	ID_99
+Non	Oui	Non	employé	29	21.69	7	ID_100
+Oui	Non	Oui	cadre	35	18.15	5	ID_101
+Oui	Non	Non	cadre	36	18.27	7.8	ID_102
+Oui	Non	Non	employé	40	21.62	6.3	ID_103
+Non	Non	Non	cadre	36	23.18	7.7	ID_104
+Oui	Non	Non	cadre	38	24.94	6.7	ID_105
+Oui	Non	Non	employé	44	21.89	5	ID_106
+Oui	Non	Non	non actif	38	22.72	4.2	ID_107
+Non	Oui	Non	cadre	39	20.62	7.9	ID_108
+Oui	Non	Non	cadre	44	19.42	0.3	ID_109
+Oui	Non	Oui	employé	40	21.5	4.7	ID_110
+Oui	Non	Non	cadre	43	17.94	1.2	ID_111
+Oui	Non	Non	employé	40	23.45	3.3	ID_112
+Oui	Non	Oui	étudiant	22	23.94	8	ID_113
+Non	Oui	Non	étudiant	15	24.81	13.4	ID_114
+Oui	Non	Oui	étudiant	23	24.22	10.2	ID_115
+Oui	Non	Oui	étudiant	16	18.31	14.7	ID_116
+Oui	Non	Oui	étudiant	20	18.01	4.8	ID_117
+Oui	Non	Non	étudiant	22	23.11	13.9	ID_118
+Oui	Non	Non	étudiant	17	23.53	8.8	ID_119
+Oui	Oui	Oui	employé	21	24.74	10.5	ID_120
+Oui	Non	Non	étudiant	19	20.47	13.3	ID_121
+Non	Oui	Oui	non actif	20	25.4	10.7	ID_122
+Non	Non	Non	employé	21	21.62	5.8	ID_123
+Oui	Oui	Non	étudiant	17	23.47	8.8	ID_124
+Oui	Oui	Oui	étudiant	17	17.4	3.8	ID_125
+Oui	Non	Oui	employé	21	24.9	8	ID_126
+Oui	Non	Non	employé	32	23.77	3.6	ID_127
+Oui	Non	Non	cadre	27	18.17	2.1	ID_128
+Non	Oui	Non	employé	34	23.75	3.3	ID_129
+Oui	Non	Non	étudiant	30	23.12	3.3	ID_130
+Non	Oui	Oui	employé	31	21.5	2.6	ID_131
+Oui	Non	Non	cadre	26	17.87	6.6	ID_132
+Oui	Non	Oui	cadre	29	16.53	6.6	ID_133
+Oui	Oui	Non	cadre	29	31.25	6	ID_134
+Oui	Oui	Non	employé	33	33.04	7.4	ID_135
+Non	Non	Non	étudiant	27	17.79	4.6	ID_136
+Non	Non	Oui	employé	32	21.98	5.7	ID_137
+Oui	Oui	Non	cadre	32	28.87	14.9	ID_138
+Oui	Non	Oui	cadre	27	16.54	6	ID_139
+Oui	Non	Non	non actif	33	19.78	5.5	ID_140
+Non	Non	Non	employé	32	23.34	6.8	ID_141
+Non	Non	Oui	employé	28	23.53	5.4	ID_142
+Non	Oui	Oui	étudiant	27	25.12	5.5	ID_143
+Oui	Non	Oui	étudiant	34	21.15	4.8	ID_144
+Oui	Non	Non	non actif	25	16.35	4	ID_145
+Non	Oui	Non	employé	33	28.58	7.7	ID_146
+Oui	Oui	Oui	non actif	27	27.67	12.8	ID_147
+Non	Oui	Oui	cadre	34	21.54	5.9	ID_148
+Oui	Oui	Non	cadre	30	24.67	7.6	ID_149
+Non	Non	Oui	cadre	33	23.89	5.2	ID_150
+Non	Non	Non	étudiant	25	17.08	7.7	ID_151
+Oui	Non	Oui	cadre	27	21.36	5	ID_152
+Non	Non	Oui	cadre	33	19.21	5.8	ID_153
+Non	Non	Non	employé	28	21.74	7.6	ID_154
+Oui	Non	Non	étudiant	29	22.26	3	ID_155
+Non	Non	Non	cadre	25	21.62	6	ID_156
+Oui	Non	Non	employé	27	17.1	0.2	ID_157
+Non	Non	Oui	étudiant	20	18.53	5	ID_158
+Non	Oui	Oui	employé	29	17.57	7.2	ID_159
+Oui	Non	Oui	employé	30	17.53	4.8	ID_160
+Non	Non	Oui	employé	26	21.04	7.5	ID_161
+Oui	Oui	Non	cadre	27	19.85	0.8	ID_162
+Non	Oui	Oui	cadre	21	23.58	12.1	ID_163
+Oui	Non	Non	étudiant	20	17.88	9.2	ID_164
+Oui	Non	Non	non actif	21	20.58	11.4	ID_165
+Oui	Non	Non	étudiant	22	19.55	3.8	ID_166
+Oui	Oui	Oui	étudiant	18	18.32	12.1	ID_167
+Oui	Non	Non	étudiant	15	23.22	13.5	ID_168
+Oui	Non	Non	employé	21	28.07	6.3	ID_169
+Oui	Oui	Non	cadre	34	16.7	11.8	ID_170
+Non	Oui	Oui	étudiant	17	19.4	2.3	ID_171
+Non	Oui	Non	cadre	26	21.98	7.2	ID_172
+Oui	Non	Oui	non actif	32	22.99	7.8	ID_173
+Oui	Non	Oui	étudiant	25	20.35	8.3	ID_174
+Oui	Non	Oui	cadre	32	24.36	12.7	ID_175
+Non	Non	Oui	étudiant	22	16.45	4.7	ID_176
+Non	Non	Oui	employé	30	22.04	8.8	ID_177
+Non	Non	Non	employé	34	23.42	8.9	ID_178
+Oui	Oui	Oui	cadre	29	19.03	10.7	ID_179
+Oui	Non	Non	employé	28	24.37	9.5	ID_180
+Oui	Oui	Non	cadre	34	29.84	12.9	ID_181
+Oui	Non	Oui	employé	28	24.5	9.1	ID_182
+Oui	Oui	Oui	cadre	25	28.11	5.4	ID_183
+Non	Non	Non	non actif	30	30.99	10.3	ID_184
+Non	Non	Non	employé	30	33.9	6.5	ID_185
+Oui	Oui	Oui	employé	27	31.07	10.8	ID_186
+Non	Oui	Non	étudiant	18	29.41	6.7	ID_187
+Oui	Non	Non	étudiant	18	21.03	3.9	ID_188
+Non	Non	Non	étudiant	17	34.39	7.6	ID_189
+Non	Non	Non	étudiant	15	23.5	2.6	ID_190
+Oui	Non	Oui	étudiant	17	18.58	2.5	ID_191
+Oui	Non	Non	non actif	15	23.58	2.6	ID_192
+Oui	Non	Non	employé	23	27.59	6	ID_193
+Oui	Oui	Non	employé	17	28.39	4.1	ID_194
+Oui	Non	Non	étudiant	24	21.01	5.1	ID_195
+Oui	Non	Non	étudiant	19	26.88	6.6	ID_196
+Oui	Non	Non	étudiant	15	20.58	4.5	ID_197
+Oui	Non	Non	étudiant	19	24.33	4.5	ID_198
+Oui	Oui	Non	employé	24	18.76	4.1	ID_199
+Oui	Non	Non	employé	20	19.2	5.2	ID_200
+Non	Oui	Non	étudiant	22	16.51	12	ID_201
+Non	Non	Oui	étudiant	16	33.85	8.3	ID_202
+Oui	Non	Non	étudiant	21	20.6	6.9	ID_203
+Oui	Non	Non	étudiant	16	23.23	7.6	ID_204
+Oui	Non	Non	employé	22	18.13	7	ID_205
+Non	Non	Non	étudiant	20	22.17	5.6	ID_206
+Oui	Non	Non	employé	23	23.74	4.3	ID_207
+Oui	Non	Non	étudiant	19	20.05	5.7	ID_208
+Non	Non	Non	employé	20	17.53	4.5	ID_209
+Oui	Non	Non	employé	19	20.57	4.1	ID_210
+Oui	Non	Non	étudiant	18	16.3	5.4	ID_211
+Non	Non	Oui	employé	15	24.42	6.1	ID_212
+Oui	Non	Non	cadre	15	21.53	6.3	ID_213
+Oui	Non	Oui	étudiant	20	24.54	5.8	ID_214
+Oui	Oui	Non	étudiant	19	23.33	6.9	ID_215
+Oui	Oui	Oui	étudiant	24	25.49	5.3	ID_216
+Oui	Non	Non	étudiant	16	18.71	0.5	ID_217
+Oui	Oui	Non	étudiant	23	20.6	3.9	ID_218
+Oui	Non	Oui	étudiant	16	22.39	2	ID_219
+Non	Non	Non	étudiant	17	18.56	1.8	ID_220
+Oui	Non	Non	étudiant	19	20.18	7.3	ID_221
+Non	Non	Non	étudiant	23	22.56	5.3	ID_222
+Oui	Non	Non	non actif	20	24.4	4.6	ID_223
+Non	Non	Non	étudiant	16	19.54	0.5	ID_224
+Oui	Non	Non	étudiant	19	18.24	1.4	ID_225
+Oui	Non	Non	étudiant	21	24.52	4.6	ID_226
+Oui	Non	Non	non actif	24	23.57	7.3	ID_227
+Oui	Non	Non	non actif	18	19.73	0.8	ID_228
+Oui	Non	Oui	employé	19	33.92	5.7	ID_229
+Oui	Non	Oui	étudiant	23	17.86	1.1	ID_230
+Oui	Non	Oui	étudiant	21	24.54	4.4	ID_231
+Oui	Non	Non	étudiant	20	20.3	7.1	ID_232
+Oui	Non	Oui	étudiant	20	16.99	0.7	ID_233
+Oui	Oui	Oui	non actif	28	21.66	7.7	ID_234
+Non	Non	Non	employé	33	18.64	3.4	ID_235
+Non	Oui	Non	cadre	26	23.46	9.4	ID_236
+Oui	Oui	Oui	cadre	29	16.25	9.4	ID_237
+Oui	Oui	Non	cadre	27	20.85	14.4	ID_238
+Non	Oui	Non	cadre	31	20.31	10.2	ID_239
+Oui	Non	Oui	non actif	28	23.89	9.3	ID_240
+Non	Oui	Oui	cadre	40	20.38	7.7	ID_241
+Non	Oui	Non	cadre	39	18	5.6	ID_242
+Non	Non	Non	cadre	38	20.58	6.5	ID_243
+Non	Oui	Oui	cadre	31	16.09	8.3	ID_244
+Non	Oui	Oui	cadre	36	16.8	3.6	ID_245
+Non	Oui	Non	cadre	44	28.19	6.5	ID_246
+Non	Non	Non	employé	38	20.9	11.2	ID_247
+Non	Non	Non	employé	38	22.65	9.8	ID_248
+Oui	Non	Oui	employé	45	22.41	4.9	ID_249
+Oui	Non	Non	employé	30	17.95	6.7	ID_250
+Non	Non	Oui	non actif	34	17.05	8.6	ID_251
+Oui	Non	Oui	non actif	32	19.69	4.1	ID_252
+Oui	Non	Oui	cadre	47	21.75	9.6	ID_253
+Non	Oui	Non	employé	33	25.56	10.3	ID_254
+Oui	Non	Non	cadre	57	21.11	4	ID_255
+Oui	Non	Non	employé	31	22.36	4.6	ID_256
+Oui	Oui	Non	cadre	27	34.76	8.9	ID_257
+Oui	Oui	Non	non actif	54	34.71	9.2	ID_258
+Non	Oui	Oui	cadre	54	17.05	3.7	ID_259
+Oui	Non	Oui	cadre	25	17.71	6.7	ID_260
+Oui	Non	Oui	non actif	30	17.68	8.1	ID_261
+Oui	Oui	Oui	cadre	49	20.09	6.5	ID_262
+Oui	Non	Oui	non actif	30	27.04	13.8	ID_263
+Non	Non	Oui	non actif	27	24.76	11.2	ID_264
+Oui	Non	Oui	non actif	27	16.89	2.9	ID_265
+Non	Non	Non	non actif	87	23.41	6.8	ID_266
+Oui	Non	Oui	non actif	25	16.91	11.3	ID_267
+Oui	Oui	Oui	non actif	76	24.74	5.1	ID_268
