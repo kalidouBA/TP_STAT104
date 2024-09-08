@@ -12,7 +12,7 @@
 <meta name="author" content="Kalidou BA (kalidou.ba@u-bordeaux.fr)" />
 
 
-<title>TP1 : Manipulation de données</title>
+<title>TP2</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -349,183 +349,163 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">TP1 : Manipulation de données</h1>
+<h1 class="title toc-ignore">TP2</h1>
 <h4 class="author">Kalidou BA (<a href="mailto:kalidou.ba@u-bordeaux.fr" class="email">kalidou.ba@u-bordeaux.fr</a>)</h4>
-<h4 class="date">11 Septembre 2023</h4>
+<h4 class="date">9 Septembre 2024</h4>
 
 </div>
 
 
-<div id="donnees-ishare" class="section level1">
-<h1>Donnees IShare</h1>
-<div id="importation-des-données" class="section level2">
-<h2>Importation des données</h2>
+<div id="jeu-de-données-gapminder" class="section level1">
+<h1>Jeu de données gapminder</h1>
+<p>Ce jeu de données se compose de <span class="math inline">\(1704\)</span> observations et de <span class="math inline">\(6\)</span> variables. Ces variables sont :</p>
+<ul>
+<li><p><code>country</code> (Qualitative) : Le pays</p></li>
+<li><p><code>continent</code> (Qualitative) : Le continent</p></li>
+<li><p><code>year</code> : L’année</p></li>
+<li><p><code>LifeExp</code> (Numérique) : l’espérance de vie</p></li>
+<li><p><code>pop</code> (Numérique) : Le nombre d’habitants</p></li>
+<li><p><code>gdpPercap</code>(Numérique) : Le PIB par habitant</p></li>
+</ul>
+</div>
+<div id="manipulation-de-données-et-statistiques-descriptives" class="section level1">
+<h1>Manipulation de données et statistiques descriptives</h1>
 <ol style="list-style-type: decimal">
-<li><p>Importer dans un objet <code>ishare</code> le jeu de données
-<code>DonneesIShare.csv</code></p></li>
-<li><p>De combien d’individus (lignes) ce jeu de données se compose-t-il
-? Combien y a-t-il de variables (colonnes) ?</p></li>
-<li><p>Vérifier le type des variables (fonction <code>str()</code>). Que
-remarquez-vous pour les variables <code>malbouffe</code> et
-<code>imc</code> ?</p></li>
-<li><p>En regardant l’aide de la fonction <code>read.csv</code>, à quoi
-sert l’argument <code>dec</code> ? Quelle est sa valeur par défaut
-?</p></li>
-<li><p>Refaire l’importation des données afin de corriger le problème
-remarqué à la question 3. et revérifier le type des variables.</p></li>
-<li><p>Changer le type des variables pour lesquelles cela vous semble
-nécessaire</p></li>
-</ol>
-<table style="width:100%;">
-<colgroup>
-<col width="19%" />
-<col width="57%" />
-<col width="10%" />
-<col width="13%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Type de variable</th>
-<th>Description</th>
-<th>Dans R</th>
-<th>Conversion</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Quantitative discrète</td>
-<td>Variable numérique prenant ses valeurs discrètes (isolées)</td>
-<td><code>int</code></td>
-<td><code>as.integer()</code></td>
-</tr>
-<tr class="even">
-<td>Quantitative continue</td>
-<td>Variable numérique prenant ses valeurs continues (non-isolées)</td>
-<td><code>num</code></td>
-<td><code>as.numeric()</code></td>
-</tr>
-<tr class="odd">
-<td>Qualitative nominale</td>
-<td>Variable prenant ses valeurs dans un ensemble défini de
-modalités</td>
-<td><code>factor</code></td>
-<td><code>as.factor()</code></td>
-</tr>
-<tr class="even">
-<td>Caractère</td>
-<td>Variables contenant des chaines de caractères plus ou moins
-longues</td>
-<td><code>chr</code></td>
-<td><code>as.character()</code></td>
-</tr>
-</tbody>
-</table>
-<ol start="7" style="list-style-type: decimal">
-<li>En regardant l’aide de la fonction <code>read.csv()</code>, est-il
-possible, lors de l’importation des données, de directement convertir
-les variables de type chaîne de caractères en variables qualitatives
-nominales ? Quel argument utiliser ?</li>
+<li><p>Dans un objet <code>gapminder</code> importer le jeu de données.
+Recoder le type des variables si nécessaire.</p></li>
+<li><p>Pour combien de pays différents les données sont-elles
+disponibles ?</p></li>
+<li><p>Afficher la liste des différentes années pour lesquelles des
+données sont disponibles (fonction <code>unique()</code>)</p></li>
 </ol>
 </div>
-<div id="manipulation-de-données" class="section level2">
-<h2>Manipulation de données</h2>
-<ol start="8" style="list-style-type: decimal">
-<li><p>Sélectionner les 10 premières et les 10 dernières lignes du jeu
-de données de deux manières différentes (avec et sans l’utilisation des
-fonctions <code>head()</code> et <code>tail()</code>)</p></li>
-<li><p>Sélectionner la colonne <code>domicile</code> de trois manières
-différentes en n’affichant que les <span class="math inline">\(6\)</span> premières lignes à chaque fois</p></li>
-<li><p>Sélectionner les colonnes <code>age</code> et
-<code>exercice</code> de deux manières différentes et n’afficher que les
-<span class="math inline">\(6\)</span> premières lignes</p></li>
-<li><p>Sélectionner pour les individus numéros 1, 50 et 1000, les
-variables <code>sexe</code>, <code>situation</code> et
-<code>etudes</code></p></li>
-<li><p>Quelles sont les modalités de la variables <code>filiere</code>
-(fonction <code>levels()</code>) ?</p></li>
-<li><p>Recoder la variable sexe pour qu’elle prenne les modalités Femme
-et Homme au lieu de F et G</p></li>
-<li><p>A l’aide de la fonction <code>subset()</code>, créer un objet
-<code>ishare_femme</code> contenant uniquement les observations des
-femmes.</p></li>
+<div id="fonction" class="section level1">
+<h1>Fonction</h1>
+<ol start="4" style="list-style-type: decimal">
+<li>Créer une fonction <code>moyenne()</code> qui prend comme argument
+une variable numérique et renvoie sa moyenne empirique. Appliquer-là sur
+les variables numériques disponibles dans les données et comparer les
+résultats avec ceux renvoyés par la fonction <code>mean()</code> de
+R.</li>
 </ol>
-<p>Combien y a-t-il de femmes dans l’étude IShare ?</p>
-<ol start="15" style="list-style-type: decimal">
-<li>Créer un objet “ishare_homme_20” contenant uniquement les
-observations des hommes agés de <span class="math inline">\(20\)</span>
-ans ou plus.</li>
+<ul>
+<li>Etape 1 : Création de la fonction avec <code>function(){}</code>
+prenant comme argument un vecteur <code>x</code></li>
+<li>Etape 2 : Récupérer dans un objet <code>n</code> le nombre
+d’observations contenues dans le vecteur <code>x</code> (fonction
+<code>length()</code>)</li>
+<li>Etape 3 : Calcul de la moyenne dans un objet <code>moy</code></li>
+<li>Etape 4 : Renvoyer l’objet <code>moy</code> à l’aide de la fonction
+<code>return()</code></li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><p>Créer une fonction <code>ecart_type()</code> qui prend comme
+argument une variable numérique et renvoie son écart type empirique.
+Appliquer-là sur les variables numériques disponibles dans les données
+et comparer les résultats avec ceux renvoyés par la fonction
+<code>sd()</code> de R. Qu’observez-vous ?</p></li>
+<li><p>Créer une fonction <code>gapminder_year()</code> permettant de
+récupérer le sous-ensemble de données correspondant à une année
+particulière spécifiée par l’utilisateur en argument.</p></li>
+<li><p>A l’aide de cette fonction, créer un objet
+<code>gapminder_2007</code> contenant le sous-ensemble de données
+concernant l’année 2007. Supprimer ensuite la colonne <code>year</code>
+de ce nouveau jeu de données.</p></li>
+<li><p>Modifier la fonction <code>gapminder_year()</code> afin de tester
+si le sous-ensemble de données contient bien au moins une ligne (en
+utilisant <code>if</code> et <code>else</code>) et qui renvoie un
+message d’erreur si ce n’est pas le cas (grâce à la fonction
+<code>warning()</code>). <em>Il s’agit d’un moyen de vérifier qu’il y a
+bien des données disponibles pour l’année sélectionnée par l’utilisateur
+dans nos données</em>. Tester la fonction avec les années 2007 et
+2021.</p></li>
+<li><p>A l’aide des fonctions précédentes, créer une fonction prenant
+comme arguments une année et un continent qui renvoie l’espérance de vie
+moyenne sur le continent pour l’année sélectionnée. Tester la fonction
+pour calculer l’espérance de vie moyenne en Europe en 1952.</p></li>
+<li><p>On voudrait maintenant obtenir l’évolution de l’espérance de vie
+moyenne en Europe au cours du temps.</p></li>
 </ol>
-<p>Combien y a-t-il d’hommes agés de <span class="math inline">\(20\)</span> ou plus dans l’étude IShare ?</p>
-<ol start="16" style="list-style-type: decimal">
-<li><p>Sélectionner le domicile des personnes agés de 18ans</p></li>
-<li><p>Recréer les objets <code>ishare_femme</code> et
-<code>ishare_homme_20</code> des questions 14 et 15 sans passer par la
-fonction <code>subset()</code></p></li>
-</ol>
+<ul>
+<li>Etape 1 : Récupérer l’ensemble des années disponibles de l’étude
+dans un objet <code>year</code> (à l’aide de la fonction
+<code>unique()</code>)</li>
+<li>Etape 2 : Créer un vecteur <code>mean_LifeExp_Europe</code>
+contenant autant de <code>NA</code> qu’il y a d’années (ce vecteur
+servira à sauvegarder les valeurs de l’espérance de vie moyenne en
+Europe pour chaque année)</li>
+<li>Etape 3 : A l’aide d’une boucle <code>for</code> et de la fonction
+précédente, calculer, pour chaque année possible, la valeur moyenne de
+l’espérance de vie en Europe et l’enregistrer dans le vecteur
+<code>mean_LifeExp_Europe</code></li>
+<li>Etape 4 : Représenter graphiquement l’évolution de l’espérance de
+vie moyenne en Europe au cours du temps</li>
+</ul>
 </div>
-<div id="statisiques-descriptives" class="section level2">
-<h2>Statisiques descriptives</h2>
-<ol start="18" style="list-style-type: decimal">
-<li><p>Calculer les moyennes et les écarts-types des variables
-quantitatives.</p></li>
-<li><p>Refaire la question précédente en utilisant la fonction
-<code>apply()</code></p></li>
-<li><p>Quel est le nombre maximum de fruits consommés par un participant
-dans l’étude ? Le nombre minimum ?</p></li>
-<li><p>Quel individus a le plut petit imc ? Le plus grand ?</p></li>
-<li><p>Calculer l’age moyens des hommes de l’étude ? Calculer ensuite
-celui des femmes en filière scientifique.</p></li>
-<li><p>Donner le nombre d’observations de chaque modalité de la variable
-<code>domicile</code></p></li>
-<li><p>En utilisant la fonction <code>which.max()</code>, quelle est la
-filière la plus représentée dans les données ?</p></li>
-<li><p>A l’aide de la fonction <code>summary()</code> afficher les
-principales statistiques descriptives des données</p></li>
-<li><p>Tracer l’histogramme de la variable <code>imc</code>. Changer le
-titre et le nom de l’axe des abscisses.</p></li>
-<li><p>Représenter le boxplot du score <code>malbouffe</code> en
-fonction du domicile. Ajouter un titre et renommer les axes.</p></li>
-<li><p>Ajouter une variable ratio définie comme étant : <span class="math inline">\(\text{ratio}=\frac{\text{malbouffe}}{\text{fruits}+1}\)</span></p></li>
+<div id="graphiques-avec-ggplot2" class="section level1">
+<h1>Graphiques avec ggplot2</h1>
+<p><strong>Aide : </strong> <a href="https://thinkr.fr/pdf/ggplot2-french-cheatsheet.pdf" class="uri">https://thinkr.fr/pdf/ggplot2-french-cheatsheet.pdf</a></p>
+<ol start="11" style="list-style-type: decimal">
+<li><p>Installer et charger le package <code>ggplot2</code></p></li>
+<li><p>Représenter le nuage de points de l’espérance de vie (variable
+<code>lifeExp</code>) en fonction de du PIB par habitant (variable
+<code>gdpPercap</code>) à l’aide de ggplot</p></li>
+<li><p>Refaire le même nuage de points en ajoutant une coloration des
+points en fonction du continent dans lequel il se trouve</p></li>
+<li><p>Modifier le nom des modalités (les écrire en français) et les
+couleurs par défaut des points avec les arguments <code>labels</code> et
+<code>values</code> de la fonction
+<code>scale_color_manual()</code></p></li>
+<li><p>Tracer les boxplots de la population dans les différents pays de
+l’Océanie (<code>geom_boxplot()</code>) <em>On commencera par créer un
+jeu de données ne contenant que les observations de pays en
+Océanie</em></p></li>
+<li><p>Changer la couleur et le remplissage des boxplots ci-dessus
+(arguments <code>color</code> et <code>fill</code> de la fonction
+<code>geom_boxplot()</code>)</p></li>
+<li><p>Tracer la densité de la variable <code>gdpPercap</code>
+(<code>geom_density()</code>) pour l’année 2007</p></li>
+<li><p>Tracer la densité du PIB par habitant pour l’année 2007 en
+rajoutant un remplissage en fonction du continent et changer l’opacité
+de ce dernier (argument <code>alpha</code>)</p></li>
+<li><p>Tracer l’évolution de l’espérance de vie moyenne en Europe au
+cours du temps avec les fonctions de ggplot.</p></li>
 </ol>
+<p><em>ggplot n’utilise que des objets de classe
+<code>data.frame</code>, il faut donc créer un jeu de données à l’aide
+de la fonction <code>data.frame()</code> contenant deux colonnes : une
+pour les années et l’autre pour l’espérance de vie moyenne calculée à la
+question 10</em></p>
 </div>
-</div>
-<div id="gestion-des-valeurs-manquantes" class="section level1">
-<h1>Gestion des valeurs manquantes</h1>
-<ol start="29" style="list-style-type: decimal">
-<li><p>Dans un objet <code>ishare2</code>, importer le jeu de données
-<code>DonneesIshare_NA.csv</code>. Comment sont codées les valeurs
-manquantes dans ce fichier ? S’il y a un problème, refaire l’importation
-des données en tenant compte de cette remarque.</p></li>
-<li><p>Calculer l’age moyen des participants de cette étude</p></li>
-<li><p>A l’aide de la fonction <code>na.omit()</code> supprimer toutes
-les lignes comportant au moins une valeur manquante. Combien y avait-il
-d’observations pour lesquelles au moins une valeur était
-manquante?</p></li>
+<div id="bonus-le-tidyverse" class="section level1">
+<h1>Bonus : le tidyverse</h1>
+<p><strong>Aide :</strong> <a href="https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.pdf" class="uri">https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Tidyverse+Cheat+Sheet.pdf</a></p>
+<ol start="20" style="list-style-type: decimal">
+<li>A l’aide des fonctions des packages du <code>tidyvserse</code>
+:</li>
 </ol>
-</div>
-<div id="données-sédentarité" class="section level1">
-<h1>Données sédentarité</h1>
-<ol style="list-style-type: decimal">
-<li><p>Importer DonneesSed dans un data frame intitulé DonneesSed avec
-la fonction <code>read.delim()</code> en concidérant la variable ID
-comme noms de lignes.</p></li>
-<li><p>Convertir en factor les quatres premières variables puis préciser
-les types et donner un résumé des variables</p></li>
-<li><p>Calculer le nombre de personnes qui utilisent 6h ou plus par jour
-en moyenne les appareils électroniques.</p></li>
-<li><p>Extraire dans un data frame intitulé <code>DonneeSedAct</code>
-les données concernant les personnes actives qui utilisent 6h ou plus
-par jour en moyenne les appareils électroniques.</p></li>
-<li><p>Déterminer la moyenne arrondi au dixième de la durée quotidienne
-devant les appareils pour les étudiants.</p></li>
-<li><p>Supprimer la colonne CSP de <code>DonneeSedAct</code></p></li>
-<li><p>À l’aide de la fonction <code>ifelse ()</code>, créer un vecteur
-intitulé <code>Ecran</code> qui prend la valeur 1 si l’individu
-utilisent 6h ou plus par jour en moyenne les appareils électroniques, et
-qui prend 0 sinon.</p></li>
-<li><p>Calculer le nombre d’étudiants qui ont la migraine et en déduire
-la proportion correspondante parmis les étudiants, arrondie au
-dixième.</p></li>
+<ul>
+<li><p>Créer un jeu de données contenant uniquement les observations
+pour les années 1952 et 1957 pour les continents Afrique et
+Asie</p></li>
+<li><p>Arranger les valeurs du jeux de donnée par ordre croissant
+d’années et décroissant de population</p></li>
+<li><p>Recoder la variable continent pour que ces modalités soient
+“Asie” et “Afrique”</p></li>
+<li><p>Créer un nouveau jeu de données contenant une variable moyenne et
+une variable écart type donnant respectivement le PIB moyens et son
+écart type</p></li>
+<li><p>Grouper les observations en fonction de leur continent et des
+années afin d’obtenir un nouveau <code>data.frame</code> contenant le
+PIB moyen et son écart type pour chacun des deux continents et pour
+chacune des deux années disponibles</p></li>
+</ul>
+<ol start="21" style="list-style-type: decimal">
+<li><p>A l’aide des questions précédentes, refaire les questions 10 et
+18 en utilisant les fonctions des packages du
+<code>tidyverse</code></p></li>
+<li><p>Tracer l’évolution du PIB par habitant moyen sur chaque continent
+au cours du temps</p></li>
 </ol>
 </div>
 
